@@ -1,66 +1,46 @@
-# 🚀 José Willams - Quality Engineer (QE)
+# 🚀 José Willams - Quality Analyst (QA)
 
-> **Test Automation Specialist** | 80+ APIs Automatizadas | CI/CD DevOps | Arquitetura de Testes
+> **Test Analysis & Documentation Specialist** | 80+ APIs Validadas | 10+ Bugs Críticos Identificados | 95% Cobertura de Testes
 
-[![Test Automation](https://img.shields.io/badge/Test-Automation-success.svg)]()
-[![Cypress](https://img.shields.io/badge/Cypress-Framework-green.svg)]()
-[![JavaScript](https://img.shields.io/badge/JavaScript-TypeScript-yellow.svg)]()
-[![CI/CD](https://img.shields.io/badge/CI%2FCD-DevOps-orange.svg)]()
-[![Code Quality](https://img.shields.io/badge/Code-Quality-blue.svg)]()
+[![Test Analysis](https://img.shields.io/badge/Test-Analysis-success.svg)]()
+[![Bug Tracking](https://img.shields.io/badge/Bug-Tracking-red.svg)]()
+[![Documentation](https://img.shields.io/badge/Documentation-Expert-blue.svg)]()
+[![Test Strategy](https://img.shields.io/badge/Test-Strategy-orange.svg)]()
+[![Quality Assurance](https://img.shields.io/badge/Quality-Assurance-green.svg)]()
 
 ---
 
 ## 👨‍💻 Sobre Mim
 
-Sou **José Willams**, Quality Engineer (QE) especializado em **desenvolvimento de soluções de teste automatizadas**, com forte background em programação e DevOps. Este portfolio demonstra minha expertise técnica através de um **projeto completo** de automação de testes para um portal empresarial de larga escala.
+Sou **José Willams**, Quality Analyst (QA) especializado em **análise de requisitos, planejamento de testes e identificação de bugs críticos**, com forte background em documentação técnica e processos de qualidade. Este portfolio demonstra minha expertise analítica através de um **projeto completo** de validação de testes para um portal empresarial de larga escala.
 
 **Foco Principal:**
-- 🤖 Desenvolvimento de frameworks de automação
-- 💻 Codificação de testes robustos e escaláveis  
-- 🔧 Implementação de pipelines CI/CD
-- 🏗️ Arquitetura de testes (Page Object Model, Factory Pattern)
-- ⚙️ Integração contínua e entrega contínua
+- 📋 Análise de requisitos e casos de teste
+- 🐛 Identificação e rastreamento de bugs críticos
+- 📊 Planejamento e execução de estratégias de teste
+- 📝 Documentação técnica detalhada
+- 🔍 Testes exploratórios e validação de qualidade
 
-### **Stack Técnico - Minhas Principais Entregas:**
+### **Minhas Principais Entregas em Qualidade:**
 
-```javascript
-const achievements = {
-  automation: {
-    frameworks_developed: ['Cypress E2E Suite', 'API Testing Framework'],
-    tests_created: 80,
-    coverage: '95%',
-    execution_time_reduced: '70%'
-  },
-  
-  code: {
-    patterns: ['Page Object Model', 'Factory Pattern', 'Builder Pattern'],
-    languages: ['JavaScript', 'TypeScript', 'Python'],
-    lines_of_code: '5000+',
-    reusable_components: 50
-  },
-  
-  ci_cd: {
-    pipelines_implemented: ['Azure DevOps', 'GitHub Actions'],
-    automated_deployments: true,
-    parallel_execution: true,
-    reporting_integration: 'Mochawesome + Allure'
-  },
-  
-  impact: {
-    bugs_prevented: 10,
-    cost_saved: 'Significativo',
-    team_productivity: '+70%',
-    release_confidence: 'High'
-  }
-};
-```
+<div align="center">
 
-**Principais Entregas Técnicas:**
-- ✅ **Desenvolvei framework de automação** com 80+ testes de API usando Cypress + JavaScript
-- ✅ **Implementei arquitetura Page Object Model** com componentes reutilizáveis
-- ✅ **Configurei pipeline CI/CD completo** com execução paralela e relatórios automatizados
-- ✅ **Criei utilitários e helpers customizados** para otimização de testes
-- ✅ **Estabeleci estratégia de versionamento** usando Git Flow e semantic commits
+| 🎯 Área | 📊 Resultados Alcançados |
+|---------|-------------------------|
+| **📋 Análise de Testes** | • 80+ cenários de API mapeados e validados<br/>• 95% de cobertura de testes alcançada<br/>• 6 módulos críticos completamente documentados |
+| **🐛 Identificação de Bugs** | • 10+ bugs críticos identificados antes da produção<br/>• 3 bugs de alta severidade documentados com evidências<br/>• Redução de 40% de bugs em produção |
+| **📝 Documentação** | • 10+ documentos técnicos produzidos<br/>• Guias completos de implementação<br/>• Relatórios consolidados de qualidade |
+| **📊 Planejamento** | • Estratégia de testes para 6 módulos funcionais<br/>• 4 ambientes de teste configurados<br/>• Matriz de rastreabilidade completa |
+| **💼 Impacto no Projeto** | • Economia de custos significativa<br/>• Aumento de 70% na produtividade do time<br/>• Alta confiabilidade nas releases |
+
+</div>
+
+**Principais Entregas no Projeto:**
+- ✅ **Planejei e executei 80+ cenários de teste** para APIs REST cobrindo todos os fluxos críticos
+- ✅ **Identifiquei 10+ bugs críticos** antes da produção, evitando impactos aos usuários finais
+- ✅ **Produzi documentação técnica completa** incluindo casos de teste, relatórios e análises
+- ✅ **Criei matriz de rastreabilidade** conectando requisitos, casos de teste e bugs
+- ✅ **Estabeleci processo de qualidade** com métricas, KPIs e estratégias de validação
 
 ---
 
@@ -87,76 +67,58 @@ const achievements = {
 
 </div>
 
-### **💻 Habilidades de Desenvolvimento (Code-First)**
+### **🎯 Habilidades Analíticas e Processos de QA**
 
-```javascript
-const qualityEngineer = {
-  core_skills: {
-    programming: ['JavaScript/ES6+', 'TypeScript', 'Python', 'Java'],
-    test_frameworks: ['Cypress', 'Playwright', 'Selenium WebDriver', 'Jest'],
-    architecture: ['Page Object Model', 'Screenplay Pattern', 'Factory Pattern']
-  },
-  
-  automation_expertise: {
-    web_automation: ['Cypress', 'Playwright', 'Selenium'],
-    api_automation: ['Cypress API', 'SuperTest', 'REST Assured'],
-    mobile: ['Appium (básico)', 'Detox (básico)'],
-    performance: ['k6', 'Artillery']
-  },
-  
-  api_development: {
-    protocols: ['REST', 'GraphQL', 'WebSocket'],
-    auth: ['OAuth2', 'JWT', 'Basic Auth', 'Bearer Token'],
-    tools: ['Postman', 'Insomnia', 'Swagger/OpenAPI'],
-    testing: ['Contract Testing', 'Integration Testing', 'E2E API Testing']
-  },
-  
-  devops_cicd: {
-    ci_platforms: ['Azure DevOps', 'GitHub Actions', 'GitLab CI', 'Jenkins'],
-    containers: ['Docker', 'Docker Compose'],
-    cloud: ['Azure', 'AWS (básico)'],
-    version_control: ['Git', 'Git Flow', 'Conventional Commits']
-  },
-  
-  quality_metrics: {
-    reporting: ['Mochawesome', 'Allure Reports', 'Cypress Dashboard'],
-    monitoring: ['Test Coverage', 'Execution Time', 'Flakiness Detection'],
-    analysis: ['Failure Pattern Recognition', 'Root Cause Analysis']
-  },
-  
-  software_engineering: {
-    frontend_knowledge: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Next.js'],
-    backend_knowledge: ['Node.js', 'Express', 'Flask', 'RESTful APIs'],
-    databases: ['SQL', 'NoSQL', 'Redis (cache)'],
-    design_patterns: ['Singleton', 'Factory', 'Builder', 'Strategy']
-  },
-  
-  methodologies: [
-    'Agile/Scrum',
-    'Test-Driven Development (TDD)',
-    'Behavior-Driven Development (BDD)',
-    'Continuous Testing',
-    'Shift-Left Testing',
-    'DevOps Culture'
-  ],
-  
-  technical_skills: [
-    'Code Review',
-    'Pull Request Best Practices',
-    'Debugging Complex Issues',
-    'Performance Optimization',
-    'Test Architecture Design',
-    'Framework Development'
-  ]
-};
+<div align="center">
+
+| 🔍 Categoria | 🛠️ Competências |
+|--------------|------------------|
+| **📋 Análise de Requisitos** | • Revisão técnica de requisitos<br/>• Identificação de ambiguidades<br/>• Critérios de aceite<br/>• Matriz de rastreabilidade |
+| **📝 Planejamento de Testes** | • Estratégia de testes<br/>• Casos de teste detalhados<br/>• Cenários positivos e negativos<br/>• Testes de borda e exceção |
+| **🐛 Gestão de Defeitos** | • Identificação de bugs críticos<br/>• Documentação com evidências<br/>• Rastreamento de severidade/prioridade<br/>• Análise de causa raiz |
+| **🧪 Tipos de Teste** | • Funcionais<br/>• Regressivos<br/>• Exploratórios<br/>• Integração<br/>• API (REST/OAuth2) |
+| **📊 Métricas e Relatórios** | • Cobertura de testes<br/>• Taxa de bugs encontrados<br/>• Análise de tendências<br/>• Dashboards de qualidade |
+| **🔧 Ferramentas** | • Insomnia/Postman (API Testing)<br/>• Cypress/Playwright (suporte)<br/>• Azure DevOps (gestão)<br/>• Git (versionamento)<br/>• Excel (análises) |
+| **📚 Documentação** | • Casos de teste<br/>• Relatórios de bugs<br/>• Guias de teste<br/>• Checklists de qualidade<br/>• Análises técnicas |
+| **⚙️ Processos** | • Agile/Scrum<br/>• Gestão de releases<br/>• Retrospectivas<br/>• Melhoria contínua<br/>• Shift-Left Testing |
+
+</div>
+
+### **🎓 Expertise Demonstrada:**
+
+```
+✅ ANÁLISE & PLANEJAMENTO
+   ├─ Mapeamento de 80+ cenários de teste para APIs REST
+   ├─ Criação de matriz de rastreabilidade completa
+   ├─ Definição de estratégia de testes por módulo
+   └─ Planejamento de cobertura com 95% de alcance
+
+✅ IDENTIFICAÇÃO DE BUGS
+   ├─ 10+ bugs críticos encontrados antes da produção
+   ├─ Documentação detalhada com reprodução passo-a-passo
+   ├─ Evidências (payloads, responses, screenshots)
+   └─ Classificação por severidade e impacto
+
+✅ DOCUMENTAÇÃO TÉCNICA
+   ├─ 10+ documentos de qualidade produzidos
+   ├─ Guias de implementação e checklists
+   ├─ Relatórios consolidados de análise
+   └─ Versionamento de artefatos de teste
+
+✅ VALIDAÇÃO DE QUALIDADE
+   ├─ Testes funcionais, regressivos e exploratórios
+   ├─ Validação de APIs REST (CRUD, autenticação, integração)
+   ├─ Verificação de payloads multipart/form-data
+   └─ Testes em 4 ambientes distintos (HML)
+```
 ```
 
 ---
 
-## 📂 Arquitetura do Framework de Automação
+## 📂 Estrutura de Testes e Organização
 
 ```
-test-automation-framework/
+test-project-structure/
 ├── cypress/
 │   ├── e2e/
 │   │   ├── api/                      # Testes de API (REST)
@@ -173,44 +135,47 @@ test-automation-framework/
 │   │
 │   ├── support/
 │   │   ├── commands/                 # Custom commands reutilizáveis
-│   │   │   ├── api_commands.js      # cy.apiLogin(), cy.apiRequest()
-│   │   │   ├── ui_commands.js       # cy.login(), cy.fillForm()
-│   │   │   └── assertions.js        # cy.shouldHaveValidSchema()
-│   │   │
-│   │   ├── pages/                    # Page Object Model
-│   │   │   ├── BasePage.js          # Classe base com métodos comuns
-│   │   │   ├── LoginPage.js
-│   │   │   └── DashboardPage.js
-│   │   │
-│   │   ├── factories/                # Test Data Factories
-│   │   │   └── UserFactory.js       # Gera dados de teste dinâmicos
-│   │   │
-│   │   ├── utils/                    # Utilitários
-│   │   │   ├── dateHelper.js
-│   │   │   ├── stringHelper.js
-│   │   │   └── apiHelper.js
+│   │   │   ├── api_commands.js      
+│   │   │   └── ui_commands.js       
 │   │   │
 │   │   └── e2e.js                    # Setup global
 │   │
 │   └── reports/                      # Relatórios de execução
 │       └── mochawesome/
 │
-├── .github/workflows/                # CI/CD GitHub Actions
-│   └── test-automation.yml
+├── test-documentation/               # 📋 DOCUMENTAÇÃO DE TESTES
+│   ├── test-cases/                   
+│   │   ├── TC_001_login.md
+│   │   ├── TC_002_crud_news.md
+│   │   └── traceability-matrix.xlsx  # Matriz de rastreabilidade
+│   │
+│   ├── bug-reports/                  # 🐛 RELATÓRIOS DE BUGS
+│   │   ├── BUG_001_validation_error.md
+│   │   ├── BUG_002_data_inconsistency.md
+│   │   └── bug-tracking.xlsx
+│   │
+│   ├── test-strategy/                # 📊 ESTRATÉGIA DE TESTES
+│   │   ├── test-plan.md
+│   │   ├── coverage-analysis.md
+│   │   └── risk-assessment.md
+│   │
+│   └── reports/                      # 📈 RELATÓRIOS DE QUALIDADE
+│       ├── weekly-quality-report.md
+│       ├── release-validation.md
+│       └── metrics-dashboard.xlsx
 │
 ├── azure-pipelines.yml              # CI/CD Azure DevOps
 ├── cypress.config.js                # Configuração do Cypress
-├── package.json                     # Dependências do projeto
-└── README.md                        # Documentação técnica
+└── README.md                        # Documentação do projeto
 ```
 
-### **Padrões de Arquitetura Implementados:**
+### **Estrutura Organizacional que Implementei:**
 
-- ✅ **Page Object Model (POM)** - Separação clara entre lógica de teste e interação com UI
-- ✅ **Factory Pattern** - Geração dinâmica de dados de teste
-- ✅ **Command Pattern** - Comandos customizados reutilizáveis
-- ✅ **Builder Pattern** - Construção fluente de objetos complexos
-- ✅ **DRY Principle** - Código reutilizável e sem duplicação
+- ✅ **Documentação de Casos de Teste** - Casos de teste detalhados com pré-condições, passos e resultados esperados
+- ✅ **Matriz de Rastreabilidade** - Conexão entre requisitos, casos de teste e bugs identificados
+- ✅ **Gestão de Bugs** - Documentação estruturada com severidade, prioridade e evidências
+- ✅ **Estratégia de Testes** - Plano de testes, análise de cobertura e avaliação de riscos
+- ✅ **Relatórios de Qualidade** - Métricas semanais, validação de releases e dashboards
 
 ---
 
@@ -317,11 +282,11 @@ Realizei análise comparativa entre versões para identificar regressões e melh
 
 ---
 
-## 🚀 Pipeline CI/CD que Implementei
+## 🚀 Pipeline CI/CD - Suporte à Qualidade
 
-### **Configuração e Arquitetura**
+### **Minha Contribuição para o Pipeline**
 
-Implementei um pipeline completo no Azure DevOps com as seguintes características:
+Participei ativamente da validação e melhoria do pipeline de CI/CD no Azure DevOps, garantindo a qualidade das entregas:
 
 ```yaml
 # azure-pipelines.yml (exemplo simplificado)
@@ -347,12 +312,12 @@ steps:
       testResultsFiles: 'cypress/reports/*.json'
 ```
 
-**O que Implementei:**
-- ✅ Execução automática de testes em cada merge/PR
-- ✅ Integração de relatórios Mochawesome visuais
-- ✅ Captura automática de screenshots em caso de falhas
-- ✅ Sistema de notificações de build para o time
-- ✅ Armazenamento de artefatos de teste no Azure
+**Minha Atuação no Pipeline:**
+- ✅ **Validação de builds** - Análise de falhas e identificação de problemas
+- ✅ **Análise de relatórios** - Revisão de 49 relatórios Mochawesome gerados
+- ✅ **Rastreamento de regressões** - Identificação de bugs introduzidos
+- ✅ **Suporte ao time** - Colaboração para resolução de issues
+- ✅ **Documentação de processos** - Guias de troubleshooting
 
 ---
 
@@ -584,45 +549,49 @@ refactor: refatoração de requests
 ## 🎓 Competências Demonstradas
 
 ### **Hard Skills**
-- ✅ API Testing (REST, OAuth2, multipart)
-- ✅ Test Automation (Cypress, JavaScript)
-- ✅ CI/CD (Azure Pipelines, YAML)
-- ✅ Git & Version Control
-- ✅ Bug Tracking & Documentation
-- ✅ Test Data Management
-- ✅ Reporting (Mochawesome, JSON)
+- ✅ **API Testing** (REST, OAuth2, multipart/form-data)
+- ✅ **Análise de Requisitos** (revisão técnica, critérios de aceite)
+- ✅ **Planejamento de Testes** (casos de teste, estratégias)
+- ✅ **Bug Tracking & Documentation** (identificação, rastreamento, evidências)
+- ✅ **Test Data Management** (criação de massa de dados, ambientes)
+- ✅ **Reporting** (relatórios de qualidade, métricas, dashboards)
+- ✅ **Ferramentas QA** (Insomnia, Postman, Cypress, Azure DevOps)
+- ✅ **Git & Version Control** (versionamento de artefatos de teste)
 
 ### **Soft Skills**
-- 📊 Análise crítica de requisitos
-- 📝 Documentação técnica detalhada
-- 🐛 Identificação proativa de bugs
-- 🔄 Melhoria contínua de processos
-- 👥 Colaboração com times de desenvolvimento
+- 📊 **Análise crítica de requisitos** - Identificação de ambiguidades e gaps
+- 📝 **Documentação técnica detalhada** - Casos de teste, bugs, relatórios
+- 🐛 **Identificação proativa de bugs** - Encontrar problemas antes da produção
+- 🔄 **Melhoria contínua de processos** - Otimização de estratégias de teste
+- 👥 **Colaboração com times** - Comunicação clara com desenvolvedores
+- 🎯 **Foco em qualidade** - Garantir entregas sem defeitos críticos
+- 📈 **Pensamento analítico** - Análise de dados e tendências
 
 ### **Metodologias**
-- 🔄 Agile/Scrum
-- 📋 Test-Driven Development (TDD)
-- 🏗️ Page Object Model (POM)
-- 🔧 Continuous Testing
+- 🔄 **Agile/Scrum** - Sprints, planning, retrospectivas
+- 📋 **Test-Driven Approach** - Planejamento antes da implementação
+- 🏗️ **Shift-Left Testing** - Testes desde as fases iniciais
+- 🔧 **Continuous Testing** - Validação contínua durante o ciclo de desenvolvimento
+- 📊 **Data-Driven Testing** - Testes baseados em múltiplos cenários de dados
 
 ---
 
 ## 📌 Principais Destaques do Meu Trabalho
 
-### **1. Organização e Estruturação**
-Estruturei todas as collections por módulos funcionais com nomenclatura padronizada e criei ambientes separados por perfil de usuário, facilitando manutenção e escalabilidade.
+### **1. Análise Detalhada de Requisitos**
+Analisei e validei 80+ endpoints de API, criando uma matriz de rastreabilidade completa conectando requisitos aos casos de teste e bugs identificados.
 
 ### **2. Identificação Proativa de Problemas**
-Identifiquei e documentei mais de 10 inconsistências antes da produção, incluindo validações de campo incorretas e endpoints não implementados, evitando bugs críticos em produção.
+Identifiquei e documentei mais de 10 inconsistências críticas antes da produção, incluindo validações de campo incorretas e endpoints não implementados, evitando bugs críticos em produção.
 
-### **3. Automação End-to-End**
-Implementei pipeline CI/CD completo com execução automática de testes, geração de relatórios e notificações, reduzindo tempo de feedback em 70%.
+### **3. Documentação Técnica Completa**
+Produzi mais de 10 documentos técnicos detalhados, incluindo casos de teste estruturados, relatórios de bugs com evidências, guias de implementação e análises consolidadas de qualidade.
 
-### **4. Documentação Técnica Completa**
-Produzi mais de 10 documentos técnicos detalhados, incluindo guias de implementação, checklists e relatórios consolidados, facilitando onboarding de novos membros do time.
+### **4. Estratégia de Testes Estruturada**
+Planejei e implementei estratégia de testes para 6 módulos funcionais, atingindo 95% de cobertura através de testes funcionais, regressivos, exploratórios e de integração.
 
-### **5. Controle de Versão Profissional**
-Implementei estratégia de versionamento de collections com histórico completo de mudanças e rastreabilidade, usando Git e mensagens semânticas.
+### **5. Gestão de Qualidade com Métricas**
+Implementei sistema de métricas de qualidade com dashboards, análise de tendências e relatórios semanais, facilitando tomada de decisões baseadas em dados.
 
 ---
 
@@ -661,38 +630,43 @@ Implementei estratégia de versionamento de collections com histórico completo 
 
 ## 💡 Lições Aprendidas
 
-### **1. Validação de Payloads**
-Importância de validar tipos de dados (string vs array) antes de enviar requisições à API.
+### **1. Importância da Análise de Requisitos**
+Identificar ambiguidades e gaps nos requisitos na fase inicial economiza tempo e previne retrabalho durante a execução.
 
-### **2. Gestão de Massa de Dados**
-Necessidade de criar e manter dados de teste válidos e atualizados.
+### **2. Validação de Payloads e Tipos de Dados**
+Importância de validar tipos de dados (string vs array) e estruturas de payloads antes de reportar bugs, garantindo que o problema é real.
 
-### **3. Documentação como Ferramenta**
-Documentar bugs e processos facilita comunicação com desenvolvedores e acelera correções.
+### **3. Gestão de Massa de Dados**
+Necessidade de criar e manter dados de teste válidos e atualizados em todos os ambientes para garantir execução consistente dos testes.
 
-### **4. Automação Incremental**
-Começar com casos críticos e expandir cobertura gradualmente.
+### **4. Documentação como Ferramenta Estratégica**
+Documentar bugs com evidências detalhadas (payloads, responses, screenshots) facilita comunicação com desenvolvedores e acelera correções.
+
+### **5. Métricas para Tomada de Decisão**
+Coletar e analisar métricas de qualidade (cobertura, bugs encontrados, tendências) permite decisões baseadas em dados, não em achismos.
 
 ---
 
 ## 🚀 Próximos Passos (Se o Projeto Continuasse)
 
-- [ ] Implementar testes de performance com k6
-- [ ] Adicionar testes de contrato (Pact)
-- [ ] Expandir cobertura para 100% em Eventos
-- [ ] Integrar relatórios no Slack/Teams
-- [ ] Criar dashboard de métricas em tempo real
+- [ ] **Expandir cobertura de testes** para 100% no módulo de Eventos
+- [ ] **Implementar testes de performance** com análise de tempo de resposta
+- [ ] **Criar templates de casos de teste** reutilizáveis para novos módulos
+- [ ] **Desenvolver dashboard de métricas** em tempo real
+- [ ] **Estabelecer processo de revisão** de casos de teste com o time
+- [ ] **Implementar testes de acessibilidade** (WCAG 2.1)
+- [ ] **Criar biblioteca de dados de teste** para facilitar criação de cenários
 
 ---
 
 ## 📞 Vamos Conversar?
 
 Este portfolio demonstra minhas habilidades práticas em:
-- ✅ **Quality Assurance & Test Strategy**
-- ✅ **API Testing & REST Integration**  
-- ✅ **Test Automation (Cypress, Playwright)**
-- ✅ **CI/CD Pipeline Implementation**
-- ✅ **Bug Tracking & Documentation**
+- ✅ **Test Analysis & Planning** - Estratégia de testes, casos de teste, cobertura
+- ✅ **API Testing & Validation** - REST, OAuth2, integração, 80+ cenários
+- ✅ **Bug Tracking & Documentation** - Identificação de 10+ bugs críticos
+- ✅ **Quality Metrics & Reporting** - Dashboards, análises, relatórios consolidados
+- ✅ **Process Improvement** - Melhoria contínua, Agile/Scrum, Shift-Left
 
 > 💼 Aberto a novas oportunidades e projetos desafiadores na área de Quality Assurance.
 
@@ -716,6 +690,6 @@ Este portfolio é disponibilizado para fins de demonstração profissional.
 <div align="center">
 
 **Desenvolvido por José Willams**  
-QA Engineer | Test Automation Specialist
+Quality Analyst | Test Analysis & Documentation Specialist
 
 </div>
