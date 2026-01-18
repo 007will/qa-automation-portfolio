@@ -1,0 +1,109 @@
+schedules:
+- cron: "0 8 * * *"   # 05h BRT
+  displayName: "Rodar diariamente às 05h (BRT)"
+  branches:
+    include:
+    - master
+  always: true
+
+- cron: "0 9 * * *"   # 06h BRT
+  displayName: "Rodar diariamente às 06h (BRT)"
+  branches:
+    include:
+    - master
+  always: true
+
+trigger:
+  - master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '20.x'
+    displayName: 'Instalar Node.js'
+
+  - script: |
+      npm ci
+    displayName: 'Instalar dependências (npm ci)'
+
+  - script: |
+      npm audit --audit-level=moderate || true
+    displayName: 'Executar auditoria de segurança'
+    continueOnError: true
+
+  - script: |
+      echo "🔥 Limpando relatórios anteriores"
+      npx rimraf cypress/reports/mochawesome-report/*
+      npx rimraf cypress/reports/allure-results/*
+    displayName: 'Limpar relatórios anteriores'
+
+  - script: |
+      echo "🚀 Executando testes smoke"
+      npm run test
+    displayName: 'Executar testes Cypress'
+    continueOnError: true
+
+  - script: |
+      echo "📦 Mesclando relatórios JSON"
+      npx mochawesome-merge cypress/reports/mochawesome-report/*.json > cypress/reports/mochawesome-report/report.json
+    displayName: 'Mesclar relatórios JSON'
+    condition: always()
+
+  - script: |
+      echo "📊 Gerando HTML do Mochawesome"
+      npx marge cypress/reports/mochawesome-report/report.json --reportDir=cypress/reports/mochawesome-report --inline
+    displayName: 'Gerar relatório HTML Mochawesome'
+    condition: always()
+
+  - script: |
+      echo "🎯 Gerando relatório Allure"
+      npx allure generate cypress/reports/allure-results --clean -o cypress/reports/allure-report || true
+    displayName: 'Gerar relatório Allure'
+    condition: always()
+    continueOnError: true
+
+
+  - task: PublishPipelineArtifact@1
+    inputs:
+      targetPath: 'cypress/reports/allure-report'
+      artifact: 'allure-report'
+      publishLocation: 'pipeline'
+    displayName: '📤 Publicar Allure como artefato'
+    condition: always()
+    continueOnError: true
+
+  - task: PublishPipelineArtifact@1
+    inputs:
+      targetPath: 'cypress/screenshots'
+      artifact: 'screenshots-failure'
+      publishLocation: 'pipeline'
+    displayName: '📸 Publicar screenshots de falhas'
+    condition: failed()
+    continueOnError: true
+  - task: PublishPipelineArtifact@1
+    inputs:
+      targetPath: 'cypress/reports/mochawesome-report'
+      artifact: 'mochawesome-report'
+      publishLocation: 'pipeline'
+    displayName: '📤 Publicar Mochawesome como artefato'
+    condition: always()
+
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFiles: '**/test-results-*.xml'
+      testResultsFormat: 'JUnit'
+      mergeTestResults: true
+      failTaskOnFailedTests: false
+    displayName: '📊 Publicar resultados de teste no Azure DevOps'
+    condition: always()
+
+  - script: |
+      curl -H "Content-Type: application/json" \
+          -d "{\"text\": \"❌ The pipeline has failed! Check the logs here: $(System.TeamFoundationCollectionUri)$(System.TeamProject)/_build/results?buildId=$(Build.BuildId)\"}" \
+          https://acspcombr.webhook.office.com/webhookb2/4ea26282-f2c5-437a-91df-1d41be67ef5e@fc53697e-539a-4374-9299-9fdf0160ed95/IncomingWebhook/0d2f14999e214b57a233940147d2df59/e730ea92-cda9-41a3-9041-e15710fe4471/V295SOIDnc-no9HPwvwxwE04V3y0B5IOt43JZeHiRaPhw1
+    displayName: '🔔 Notificar Teams'
+    condition: or(failed(), eq(variables['Agent.JobStatus'], 'SucceededWithIssues'))
+

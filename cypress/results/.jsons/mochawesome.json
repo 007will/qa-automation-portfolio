@@ -1,0 +1,132 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-12-18T19:48:30.949Z",
+    "end": "2025-12-18T19:48:31.169Z",
+    "duration": 220,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 1,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "3bec8fc2-1f13-4afc-93fa-a3c89b11ed38",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Backoffice\\Lives.cy.js",
+      "file": "cypress\\e2e\\Backoffice\\Lives.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1bf792c3-e0a0-4d27-b735-677d4a767669",
+          "title": "Funcionalidade Lives",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validar Cadastro de Live A Realizar",
+              "fullTitle": "Funcionalidade Lives Validar Cadastro de Live A Realizar",
+              "timedOut": null,
+              "duration": 161,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "[\n  {\n    \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n    \"value\": \"cypress\\\\e2e\\\\Backoffice\\\\Lives.cy.js\"\n  },\n  {\n    \"title\": \"cypress-mochawesome-reporter-screenshots\",\n    \"value\": [\n      [\n        \"\\\\Backoffice\\\\Lives.cy.js\\\\Validar Cadastro de Live A Realizar -- before each hook (failed).png\"\n      ]\n    ]\n  }\n]",
+              "code": "cy.acessarBackOffice('Lives Cadastradas');\ncy.pesquisarItem(cadastroLives);\n//cy.excluirItem('Lives', 'nomeLives', cadastroLives.nomeLives) //## BUG de ausência de Modal de confirmação de exclusão ## \ncy.acessarCadastrar('Cadastro de Lives', 'Cadastrar Live', 'Cadastro de Lives');\ncy.preencherCadastroLives(cadastroLives, cadastroLives.ARealizar, cadastroLives.Cadastrar);\ncy.contains(\"Live cadastrada com sucesso.\").should('be.visible');",
+              "err": {
+                "message": "CypressError: `cy.task('clearCache')` failed with the following error:\n\nThe 'task' event has not been registered in the setupNodeEvents method. You must register it before using cy.task()\n\nFix this in your setupNodeEvents method here:\nD:\\PJ\\diretorio_automation\\cypress.config.js\n\nhttps://on.cypress.io/api/task\n\nBecause this error occurred during a `before each` hook we are skipping all of the remaining tests.",
+                "estack": "CypressError: `cy.task('clearCache')` failed with the following error:\n\nThe 'task' event has not been registered in the setupNodeEvents method. You must register it before using cy.task()\n\nFix this in your setupNodeEvents method here:\nD:\\PJ\\diretorio_automation\\cypress.config.js\n\nhttps://on.cypress.io/api/task\n\nBecause this error occurred during a `before each` hook we are skipping all of the remaining tests.\n    at <unknown> (https://test.spchamber.com.br/__cypress/runner/cypress_runner.js:138735:72)\n    at tryCatcher (https://test.spchamber.com.br/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://test.spchamber.com.br/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://test.spchamber.com.br/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://test.spchamber.com.br/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://test.spchamber.com.br/__cypress/runner/cypress_runner.js:1667:18)\n    at _drainQueueStep (https://test.spchamber.com.br/__cypress/runner/cypress_runner.js:2377:12)\n    at _drainQueue (https://test.spchamber.com.br/__cypress/runner/cypress_runner.js:2370:9)\n    at Async._drainQueues (https://test.spchamber.com.br/__cypress/runner/cypress_runner.js:2386:5)\n    at Async.drainQueues (https://test.spchamber.com.br/__cypress/runner/cypress_runner.js:2256:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://diretorio_automation/./cypress/support/commands.js:8:7)",
+                "diff": null
+              },
+              "uuid": "a4d3ca62-2ab9-445c-9710-a3c854a74ac8",
+              "parentUUID": "1bf792c3-e0a0-4d27-b735-677d4a767669",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validar Cadastro de Live Realizada",
+              "fullTitle": "Funcionalidade Lives Validar Cadastro de Live Realizada",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.acessarBackOffice('Lives Cadastradas');\ncy.pesquisarItem(cadastroLives);\n//cy.excluirItem('Lives', 'nomeLives', cadastroLives.nomeLives) //## BUG de ausência de Modal de confirmação de exclusão ##\ncy.acessarCadastrar('Cadastro de Lives', 'Cadastrar Live', 'Cadastro de Lives');\ncy.preencherCadastroLives(cadastroLives, cadastroLives.Realizado, cadastroLives.Cadastrar);\ncy.contains(\"Live cadastrada com sucesso.\").should('be.visible');",
+              "err": {},
+              "uuid": "49ab4302-70d3-4a54-8b9a-37bf655a1c23",
+              "parentUUID": "1bf792c3-e0a0-4d27-b735-677d4a767669",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "a4d3ca62-2ab9-445c-9710-a3c854a74ac8"
+          ],
+          "pending": [],
+          "skipped": [
+            "49ab4302-70d3-4a54-8b9a-37bf655a1c23"
+          ],
+          "duration": 161,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress\\results\\.jsons",
+        "charts": true,
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.3.2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "diretorio_automation",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://acsp-comex@dev.azure.com/acsp-comex/diretorio_automation/_git/diretorio_automation"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+"scripts": {
+  "test": "cypress run --browser chrome --headless --spec 'cypress/e2e/**/*.cy.js'",
+  "smoke": "cypress run --browser chrome --headless --spec 'cypress/e2e/**/smoke_*.cy.js'",
+  "test:ci": "cypress run --browser chrome --headless --spec 'cypress/e2e/**/*.cy.js'",
+  "smoke:ci": "cypress run --browser chrome --headless --spec 'cypress/e2e/**/smoke_*.cy.js'",
+  "test:ui": "cypress open --browser chrome",
+  "clean-reports": "npx rimraf cypress/reports/mochawesome-report/* cypress/reports/allure-results/* cypress/reports/allure-report/*",
+  "merge-reports": "npx mochawesome-merge cypress/reports/mochawesome-report/*.json > cypress/reports/mochawesome-report/report.json",
+  "report-html": "npx marge cypress/reports/mochawesome-report/report.json --reportDir=cypress/reports/mochawesome-report --inline",
+  "allure:generate": "allure generate cypress/reports/allure-results --clean -o cypress/reports/allure-report",
+  "allure:open": "allure open cypress/reports/allure-report",
+  "report:all": "npm run merge-reports && npm run report-html && npm run allure:generate"
+},
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "allure-commandline": "^2.29.0",
+    "chai": "^5.2.1",
+    "cypress": "^14.5.4",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.4",
+    "cypress-multi-reporters": "^2.0.5",
+    "cypress-plugin-api": "^2.11.2",
+    "cypress-xpath": "^2.0.1",
+    "eslint-plugin-chai-friendly": "0.7.2",
+    "eslint-plugin-cypress": "2.13.3",
+    "gerador-br": "^1.2.4",
+    "gerador-validador-cpf": "^6.3.0",
+    "http-server": "^14.1.1",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^4.4.1",
+    "mochawesome-report-generator": "^6.3.2",
+    "rimraf": "^6.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "keywords": []
+}
