@@ -103,7 +103,7 @@ steps:
   - script: |
       curl -H "Content-Type: application/json" \
           -d "{\"text\": \"❌ The pipeline has failed! Check the logs here: $(System.TeamFoundationCollectionUri)$(System.TeamProject)/_build/results?buildId=$(Build.BuildId)\"}" \
-          https://acspcombr.webhook.office.com/webhookb2/4ea26282-f2c5-437a-91df-1d41be67ef5e@fc53697e-539a-4374-9299-9fdf0160ed95/IncomingWebhook/0d2f14999e214b57a233940147d2df59/e730ea92-cda9-41a3-9041-e15710fe4471/V295SOIDnc-no9HPwvwxwE04V3y0B5IOt43JZeHiRaPhw1
+          https://acspcombr.webhook.office.com/webhookb2/CODES_Here
     displayName: '🔔 Notificar Teams'
     condition: or(failed(), eq(variables['Agent.JobStatus'], 'SucceededWithIssues'))
 
