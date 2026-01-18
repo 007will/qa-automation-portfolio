@@ -1,6 +1,6 @@
-# 👨‍💻 José Willams - QA Engineer Portfolio
+# � José Willams - QA Engineer Portfolio
 
-> Especialista em Quality Assurance | Automação de Testes | API Testing | CI/CD
+> Case Study Completo: Automação de 80+ APIs, Pipeline CI/CD e 95% de Cobertura de Testes
 
 [![API Testing](https://img.shields.io/badge/API-Testing-blue.svg)]()
 [![Cypress](https://img.shields.io/badge/Cypress-E2E-green.svg)]()
@@ -11,7 +11,7 @@
 
 ## 🎯 Sobre Mim
 
-Sou um **QA Engineer** especializado em automação de testes, com experiência sólida em testes de API REST e E2E. Este portfolio demonstra meu trabalho em um projeto real de portal empresarial com múltiplos módulos e integração complexa de APIs.
+Sou **José Willams**, QA Engineer especializado em automação de testes, com experiência sólida em testes de API REST e E2E. Este portfolio apresenta um **case study completo** do meu trabalho em um projeto real de portal empresarial com múltiplos módulos e integração complexa de APIs.
 
 ### **Minhas Principais Entregas:**
 - ✅ Criei **~80 casos de teste de API** organizados em 6 módulos funcionais
